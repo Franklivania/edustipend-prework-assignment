@@ -1,0 +1,38 @@
+@import '../../App.scss';
+
+section{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+    font-family: $font;
+
+    h1{
+        font-size: $extra-large-text;
+    }
+
+    p{
+        font-weight: 200;
+        font-size: $text;
+    }
+
+    #btn{
+        width: 25%;
+        padding: .6em 0;
+        border: none;
+        outline: none;
+        background: $orange;
+        border-radius: $small-radius;
+        font-size: $text;
+        cursor: pointer;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    section{
+
+        #btn{
+            width: 100%;
+        }
+    }
+}

@@ -1,0 +1,21 @@
+@import '../../App.scss';
+
+.landing{
+    position: relative;
+    // height: $height;
+    width: $width;
+    background: $gray;
+    display: flex;
+    flex-direction: column;
+
+    .container{
+        position: relative;
+        display: flex;
+        gap: 1em;
+        justify-content: space-between;
+        margin: 2em;
+        align-items: center;
+        flex-wrap: wrap;
+        flex: 1/1;
+    }
+}

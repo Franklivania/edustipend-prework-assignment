@@ -1,0 +1,40 @@
+@import '../../App.scss';
+
+.sidenav{
+    // position: absolute;
+    top: 10%;
+    right: 2%;
+    width: 25%;
+    padding: 1em;
+    background: $dark-gray;
+    text-align: center;
+
+    .btn{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 1em;
+        padding: .5em;
+        border-radius: $small-radius;
+        outline: none;
+        border: 0.02em solid $black;
+        font-family: $font;
+        letter-spacing: .1em;
+        margin: .5em 0;
+    }
+
+    #btn{
+        background: $orange;
+        font-family: $font;
+        padding: .5em 2em;
+        border: none;
+        border-radius: $small-radius;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .sidenav{
+        width: 100%;
+    }
+}

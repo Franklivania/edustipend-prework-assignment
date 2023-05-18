@@ -1,0 +1,36 @@
+@import '../../App.scss';
+
+header{
+    position: relative;
+    padding: .3em;
+    display: flex;
+    margin: 1em;
+    background: $white;
+    border: 0.02em solid $black;
+    border-radius: $small-radius;
+    display: flex;
+    justify-content: flex-end;
+    gap: 1em;
+
+    #contact, #sign{
+        width: 10em;
+        padding: .3em 0;
+        border-radius: $small-radius;
+        font-family: $font;
+        font-size: $text;
+        font-weight: lighter;
+        cursor: pointer;
+    }
+
+    #contact{
+        border: none;
+        outline: none;
+        background: transparent;
+    }
+
+    #sign{
+        background: $orange;
+        outline: none;
+        border: 0.02em solid $black;
+    }
+}
